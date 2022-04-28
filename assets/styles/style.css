@@ -25,7 +25,7 @@ header {
     width: 50%;
 
 
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .photography {
@@ -76,6 +76,7 @@ button {
     border-radius: 10px;
 
     margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .item {
@@ -83,7 +84,7 @@ button {
     flex-direction: column;
     align-items: center;
 
-    margin: 0 7%;
+    margin: 0 9%;
 }
 
 .referenceLink {
@@ -103,7 +104,7 @@ button {
 }
 
 .row {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .rowName {
@@ -118,11 +119,46 @@ button {
 
 footer {
     background-color: #F2F2F2;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .ultimosPedidos {
     font-size: 24px;
     color: #232323;
+}
+
+.api-row {
+    margin-top: 15px;
+}
+
+.api-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    width: 200px;
+    height: 240px;
+
+    border-radius: 10px;
+
+}
+
+.api-item > img {
+    height: 180px;
+    width: 180px;
+
+    margin-bottom: 8px;
+}
+
+.apiItemName {
+    font-size: 20px;
+}
+
+strong {
+    font-weight: bold;
 }
