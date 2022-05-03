@@ -31,19 +31,19 @@
                 <p class="rowName">Escolha o modelo</p>
 
                 <div class="itemRow">
-                    <div class="primeiro item tshirt">
+                    <div onclick="selectItem('shirt')" class="primeiro item tshirt">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/tshirt.png" alt="">
                         </div>
                         <p class="itemName">T-shirt</p>
                     </div>
-                    <div class="item camiseta">
+                    <div onclick="selectItem('shirt')" class="item camiseta">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/Camiseta.png" alt="">
                         </div>
                         <p class="itemName">Camiseta</p>
                     </div>
-                    <div class="item mangaLonga">
+                    <div onclick="selectItem('shirt')" class="item mangaLonga">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/Mangalonga.png" alt="">
                         </div>
@@ -60,19 +60,19 @@
                 <p class="rowName">Escolha a gola</p>
 
                 <div class="itemRow">
-                    <div class="primeiro item golaV">
+                    <div onclick="selectItem('collar')" class="primeiro item golaV">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/GolaV.png" alt="">
                         </div>
                         <p class="itemName">Gola V</p>
                     </div>
-                    <div class="item golaRedonda">
+                    <div onclick="selectItem('collar')" class="item golaRedonda">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/GolaRedonda.png" alt="">
                         </div>
                         <p class="itemName">Gola Redonda</p>
                     </div>
-                    <div class="item golaPolo">
+                    <div onclick="selectItem('collar')" class="item golaPolo">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/GolaPolo.png" alt="">
                         </div>
@@ -87,19 +87,19 @@
                 <p class="rowName">Escolha o tecido</p>
 
                 <div class="itemRow">
-                    <div class="primeiro item seda">
+                    <div onclick="selectItem('tissue')" class="primeiro item seda">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/Seda.png" alt="">
                         </div>
                         <p class="itemName">Seda</p>
                     </div>
-                    <div class="item algodão">
+                    <div onclick="selectItem('tissue')" class="item algodão">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/Algodão.png" alt="">
                         </div>
                         <p class="itemName">Algodão</p>
                     </div>
-                    <div class="item poliester">
+                    <div onclick="selectItem('tissue')" class="item poliester">
                         <div class="borderItem">
                             <img class="imageItem" src="assets/images/FashionDriven/Poliester.png" alt="">
                         </div>
@@ -113,7 +113,7 @@
                 <p class="rowName">Imagem de referência</p>
                 <input type="text" class="referenceLink" placeholder="Insira o link">
             </div>
-            <button>Confirmar pedido</button>
+            <button class="button" disabled>Confirmar pedido</button>
         </div>
 
         <div class="photography">
@@ -127,14 +127,11 @@
         <div class="recents">
             <p class="ultimosPedidos">Últimos pedidos</p>
             <div class="api-row">
-                <div class="api-item">
-                    <img src="assets/images/FashionDriven/Blusa1.png" alt="">
-                    <p class="apiItemName"><strong>Criador: </strong>A Gata</p>
-                </div>
-            </div>
+            </div>            
         </div>
     </footer>
 
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="assets/scripts/scripts.js"></script>
 </body>
 

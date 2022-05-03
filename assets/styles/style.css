@@ -131,6 +131,9 @@ footer {
 
 .api-row {
     margin-top: 15px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .api-item {
@@ -145,12 +148,20 @@ footer {
     height: 240px;
 
     border-radius: 10px;
+    margin-right: 20px;
+}
 
+.api-item:hover {
+    cursor: pointer;
+}
+
+.item:hover {
+    cursor: pointer;
 }
 
 .api-item > img {
-    height: 180px;
-    width: 180px;
+    height: 170px;
+    width: 160px;
 
     margin-bottom: 8px;
 }
