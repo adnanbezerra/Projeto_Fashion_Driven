@@ -4,7 +4,6 @@ body {
 
 header {
     height: 90px;
-    width: 100%;
     background-color: #404EED;
     font-family: 'New Rocker', cursive;
 
@@ -86,6 +85,7 @@ button {
 
     margin: 0 9%;
 }
+
 
 .referenceLink {
     width: 80%;
@@ -172,4 +172,8 @@ footer {
 
 strong {
     font-weight: bold;
+}
+
+.selected > .borderItem {
+    border: 3px solid #404EED;
 }
