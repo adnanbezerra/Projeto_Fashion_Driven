@@ -177,3 +177,12 @@ strong {
 .selected > .borderItem {
     border: 3px solid #404EED;
 }
+
+.buttonOK {
+    background-color: #404EED;
+    color: #FCFCFC;
+}
+
+.buttonOK:hover {
+    cursor: pointer;
+}
